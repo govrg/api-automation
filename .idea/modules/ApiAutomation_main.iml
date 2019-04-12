@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="ApiAutomation:main" external.linked.project.path="$MODULE_DIR$/../.." external.root.project.path="$MODULE_DIR$/../.." external.system.id="GRADLE" external.system.module.group="ApiAutomation" external.system.module.type="sourceSet" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../out/production/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../src/main">
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../../src/main/resources" type="java-resource" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="Gradle: org.json:json:20180813" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-databind:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.way:pojo-plugin:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpclient:4.5.8" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-annotations:2.9.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.fasterxml.jackson.core:jackson-core:2.9.8" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.way:pojo-annotations:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.way:code-apt:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.way:code-core:0.6.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.core:collections:0.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.lazy:api:0.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: com.squareup:javapoet:1.7.0" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.httpcomponents:httpcore:4.4.11" level="project" />
+    <orderEntry type="library" name="Gradle: commons-logging:commons-logging:1.2" level="project" />
+    <orderEntry type="library" name="Gradle: commons-codec:commons-codec:1.11" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.core:preconditions:0.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.core:strings:0.4.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.way:testable-api:0.5.0" level="project" />
+    <orderEntry type="library" name="Gradle: br.com.objectos.way:testable-core:0.5.0" level="project" />
+  </component>
+</module>

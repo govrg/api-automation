@@ -1,0 +1,221 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "resources",
+    "rate"
+  ],
+  "properties": {
+    "resources": {
+      "$id": "#/properties/resources",
+      "type": "object",
+      "title": "The Resources Schema",
+      "required": [
+        "core",
+        "search",
+        "graphql",
+        "integration_manifest"
+      ],
+      "properties": {
+        "core": {
+          "$id": "#/properties/resources/properties/core",
+          "type": "object",
+          "title": "The Core Schema",
+          "required": [
+            "limit",
+            "remaining",
+            "reset"
+          ],
+          "properties": {
+            "limit": {
+              "$id": "#/properties/resources/properties/core/properties/limit",
+              "type": "integer",
+              "title": "The Limit Schema",
+              "default": 0,
+              "examples": [
+                60
+              ]
+            },
+            "remaining": {
+              "$id": "#/properties/resources/properties/core/properties/remaining",
+              "type": "integer",
+              "title": "The Remaining Schema",
+              "default": 0,
+              "examples": [
+                0
+              ]
+            },
+            "reset": {
+              "$id": "#/properties/resources/properties/core/properties/reset",
+              "type": "integer",
+              "title": "The Reset Schema",
+              "default": 0,
+              "examples": [
+                1554886238
+              ]
+            }
+          }
+        },
+        "search": {
+          "$id": "#/properties/resources/properties/search",
+          "type": "object",
+          "title": "The Search Schema",
+          "required": [
+            "limit",
+            "remaining",
+            "reset"
+          ],
+          "properties": {
+            "limit": {
+              "$id": "#/properties/resources/properties/search/properties/limit",
+              "type": "integer",
+              "title": "The Limit Schema",
+              "default": 0,
+              "examples": [
+                10
+              ]
+            },
+            "remaining": {
+              "$id": "#/properties/resources/properties/search/properties/remaining",
+              "type": "integer",
+              "title": "The Remaining Schema",
+              "default": 0,
+              "examples": [
+                9
+              ]
+            },
+            "reset": {
+              "$id": "#/properties/resources/properties/search/properties/reset",
+              "type": "integer",
+              "title": "The Reset Schema",
+              "default": 0,
+              "examples": [
+                1554886256
+              ]
+            }
+          }
+        },
+        "graphql": {
+          "$id": "#/properties/resources/properties/graphql",
+          "type": "object",
+          "title": "The Graphql Schema",
+          "required": [
+            "limit",
+            "remaining",
+            "reset"
+          ],
+          "properties": {
+            "limit": {
+              "$id": "#/properties/resources/properties/graphql/properties/limit",
+              "type": "integer",
+              "title": "The Limit Schema",
+              "default": 0,
+              "examples": [
+                0
+              ]
+            },
+            "remaining": {
+              "$id": "#/properties/resources/properties/graphql/properties/remaining",
+              "type": "integer",
+              "title": "The Remaining Schema",
+              "default": 0,
+              "examples": [
+                0
+              ]
+            },
+            "reset": {
+              "$id": "#/properties/resources/properties/graphql/properties/reset",
+              "type": "integer",
+              "title": "The Reset Schema",
+              "default": 0,
+              "examples": [
+                1554889824
+              ]
+            }
+          }
+        },
+        "integration_manifest": {
+          "$id": "#/properties/resources/properties/integration_manifest",
+          "type": "object",
+          "title": "The Integration_manifest Schema",
+          "required": [
+            "limit",
+            "remaining",
+            "reset"
+          ],
+          "properties": {
+            "limit": {
+              "$id": "#/properties/resources/properties/integration_manifest/properties/limit",
+              "type": "integer",
+              "title": "The Limit Schema",
+              "default": 0,
+              "examples": [
+                5000
+              ]
+            },
+            "remaining": {
+              "$id": "#/properties/resources/properties/integration_manifest/properties/remaining",
+              "type": "integer",
+              "title": "The Remaining Schema",
+              "default": 0,
+              "examples": [
+                5000
+              ]
+            },
+            "reset": {
+              "$id": "#/properties/resources/properties/integration_manifest/properties/reset",
+              "type": "integer",
+              "title": "The Reset Schema",
+              "default": 0,
+              "examples": [
+                1554889824
+              ]
+            }
+          }
+        }
+      }
+    },
+    "rate": {
+      "$id": "#/properties/rate",
+      "type": "object",
+      "title": "The Rate Schema",
+      "required": [
+        "limit",
+        "remaining",
+        "reset"
+      ],
+      "properties": {
+        "limit": {
+          "$id": "#/properties/rate/properties/limit",
+          "type": "integer",
+          "title": "The Limit Schema",
+          "default": 0,
+          "examples": [
+            60
+          ]
+        },
+        "remaining": {
+          "$id": "#/properties/rate/properties/remaining",
+          "type": "integer",
+          "title": "The Remaining Schema",
+          "default": 0,
+          "examples": [
+            0
+          ]
+        },
+        "reset": {
+          "$id": "#/properties/rate/properties/reset",
+          "type": "integer",
+          "title": "The Reset Schema",
+          "default": 0,
+          "examples": [
+            1554886238
+          ]
+        }
+      }
+    }
+  }
+}

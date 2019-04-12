@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: br.com.objectos.way:code-apt:0.6.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/br.com.objectos.way/code-apt/0.6.0/38c4c1ae779054dd87f8f4dd4f4f491107a14860/code-apt-0.6.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/br.com.objectos.way/code-apt/0.6.0/49ac2eab1cbdf3e22d4c458f1f0b858e3420c40a/code-apt-0.6.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
